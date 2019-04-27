@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public abstract class BaseTask {
     protected abstract void run() throws IOException;
+    protected abstract String inputFileName();
 
     public final void start() throws IOException {
         final Long start = System.currentTimeMillis();
@@ -16,7 +17,7 @@ public abstract class BaseTask {
 
 
     protected final Scanner readFile() throws IOException {
-        return new Scanner(new File("input.txt"));
+        return new Scanner(new File(inputFileName()));
     }
 
     // EXAMPLE: enter values solution for stepic.org

@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public abstract class BaseSortTask extends BaseTask {
+
     protected int[] array;
 
     protected abstract void sort(int[] values);
@@ -14,12 +15,17 @@ public abstract class BaseSortTask extends BaseTask {
     @Override
     protected void run() throws IOException {
         array = Files
-                .lines(Paths.get("unsorted.txt"))
+                .lines(Paths.get(inputFileName()))
                 .mapToInt(Integer::parseInt)
                 .toArray();
         printUnsortedArray(array);
         sort(array);
         printSortedArray(array);
+    }
+
+    @Override
+    protected String inputFileName() {
+        return "unsorted.txt";
     }
 
     protected void printSortedArray(int[] values) {

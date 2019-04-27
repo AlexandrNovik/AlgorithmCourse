@@ -14,7 +14,10 @@ public class FibonacciSimpleNumber extends BaseTask {
         Integer n = reader.nextInt();
         System.out.println(fibonacci(n));
     }
-
+    @Override
+    protected String inputFileName() {
+        return "fibonacci.txt";
+    }
     private static int fibonacci(final int n) {
         int a = 1;
         int b = 1;

@@ -12,6 +12,11 @@ public class FibonacciLastLetter extends BaseTask {
         System.out.println(fibonacci(readFile().nextInt()));
     }
 
+    @Override
+    protected String inputFileName() {
+        return "fibonacci.txt";
+    }
+
     private static int fibonacci(final int n) {
         int a = 1;
         int b = 1;
@@ -25,11 +30,4 @@ public class FibonacciLastLetter extends BaseTask {
         }
         return c % 10;
     }
-
-    public static final void main(String[] args) {
-        final Scanner scanner = new Scanner(System.in);
-        Integer n = scanner.nextInt();
-        System.out.print(fibonacci(n));
-    }
-
 }

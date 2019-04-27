@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 // НОК — наименьшее число, которое делится на a и b без остатка.
 public class LCM extends BaseTask {
+    @Override
+    protected String inputFileName() {
+        return "numbers.txt";
+    }
 
     @Override
     protected void run() throws IOException {

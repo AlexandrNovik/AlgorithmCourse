@@ -16,6 +16,11 @@ public class HugeFibonacciNumber extends BaseTask {
         System.out.println(fibonacci(a, b));
     }
 
+    @Override
+    protected String inputFileName() {
+        return "fibonacci_2.txt";
+    }
+
     private static long fibonacci(long n, long mod) {
         long a11 = 1, a12 = 1, a21 = 1, a22 = 0; //матрица оператора
         long r11 = 1, r12 = 0; //вектор-столбец результа

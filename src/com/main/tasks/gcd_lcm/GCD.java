@@ -8,6 +8,10 @@ import java.util.Scanner;
 // Greatest Common Divisor
 // НОД — наибольшее число, которое является делителем одновременно для чисел a и b.
 public class GCD extends BaseTask {
+    @Override
+    protected String inputFileName() {
+        return "numbers.txt";
+    }
 
     @Override
     protected void run() throws IOException {
