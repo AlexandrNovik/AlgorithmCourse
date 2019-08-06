@@ -5,6 +5,9 @@ import com.main.tasks.BaseTask;
 import java.io.IOException;
 import java.util.Scanner;
 
+/*
+ * prints all combinations in array
+ */
 public class Combinations extends BaseTask {
     @Override
     protected void run() throws IOException {
@@ -14,9 +17,8 @@ public class Combinations extends BaseTask {
         for (int i = 0; i < a.length; i++) {
             arr[i] = Integer.parseInt(a[i]);
         }
-        int r = reader.nextInt();
-        int n = arr.length;
-        printCombination(arr, n, r);
+        int combinationSize = reader.nextInt();
+        calculateCombinations(arr, combinationSize);
     }
 
     @Override
@@ -24,38 +26,42 @@ public class Combinations extends BaseTask {
         return "dynamic.txt";
     }
 
-    /* arr[]  ---> Input Array
-    data[] ---> Temporary array to store current combination
-    start & end ---> Staring and Ending indexes in arr[]
-    index  ---> Current index in data[]
-    r ---> Size of a combination to be printed */
-    static void combinationUtil(int arr[], int data[], int start,
-                                int end, int index, int r) {
+    private static void combinationRecursive(int[] arr,  // arr[]  ---> Input Array
+                                             int[] data, // data[] ---> Temporary array to store current combination
+                                             int start,  // start & end ---> Staring and Ending indexes in arr[]
+                                             int end,
+                                             int index, // index  ---> Current index in data[]
+                                             int combinationSize // combinationSize ---> Size of a combination to be printed
+    ) {
         // Current combination is ready to be printed, print it
-        if (index == r) {
-            for (int j = 0; j < r; j++)
-                System.out.print(data[j] + " ");
-            System.out.println("");
+        if (index == combinationSize) {
+            print(data, combinationSize);
             return;
         }
 
         // replace index with all possible elements. The condition
-        // "end-i+1 >= r-index" makes sure that including one element
+        // "end-i+1 >= combinationSize-index" makes sure that including one element
         // at index will make a combination with remaining elements
         // at remaining positions
-        for (int i = start; i <= end && end - i + 1 >= r - index; i++) {
+        for (int i = start; i <= end; i++) {
             data[index] = arr[i];
-            combinationUtil(arr, data, i + 1, end, index + 1, r);
+            combinationRecursive(arr, data, i + 1, end, index + 1, combinationSize);
         }
     }
 
-    // The main function that prints all combinations of size r
-    // in arr[] of size n. This function mainly uses combinationUtil()
-    static void printCombination(int arr[], int n, int r) {
-        // A temporary array to store all combination one by one
-        int data[] = new int[r];
+    private static void print(int[] data, int combinationSize) {
+        for (int j = 0; j < combinationSize; j++)
+            System.out.print(data[j] + " ");
+        System.out.println("");
+    }
 
-        // Print all combination using temprary array 'data[]'
-        combinationUtil(arr, data, 0, n - 1, 0, r);
+    // The main function that prints all combinations of size combinationSize
+    // in arr[] of size n. This function mainly uses combinationRecursive()
+    private static void calculateCombinations(int[] arr, int combinationSize) {
+        // A temporary array to store all combination one by one
+        int[] data = new int[combinationSize];
+
+        // Print all combination using temporary array 'data[]'
+        combinationRecursive(arr, data, 0, arr.length - 1, 0, combinationSize);
     }
 }
