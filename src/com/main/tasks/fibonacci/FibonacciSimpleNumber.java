@@ -11,7 +11,7 @@ public class FibonacciSimpleNumber extends BaseTask {
     @Override
     protected void run() throws IOException {
         Scanner reader = readFile();
-        Integer n = reader.nextInt();
+        int n = reader.nextInt();
         System.out.println(fibonacci(n));
     }
     @Override

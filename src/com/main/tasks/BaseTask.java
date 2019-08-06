@@ -28,7 +28,7 @@ public abstract class BaseTask {
         System.out.print(foo(a, b));
     }
 
-    private static final long foo(long a, long b) {
+    private static long foo(long a, long b) {
         // solution
         return 1;
     }
