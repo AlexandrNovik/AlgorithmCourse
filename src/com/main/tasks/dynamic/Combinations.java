@@ -23,7 +23,7 @@ public class Combinations extends BaseTask {
 
     @Override
     protected String inputFileName() {
-        return "dynamic.txt";
+        return "combinations.txt";
     }
 
     private static void combinationRecursive(int[] arr,  // arr[]  ---> Input Array
@@ -34,7 +34,7 @@ public class Combinations extends BaseTask {
                                              int combinationSize // combinationSize ---> Size of a combination to be printed
     ) {
         // Current combination is ready to be printed, print it
-        if (index == combinationSize) {
+        if (index == combinationSize || (start > 0) && arr.length < combinationSize) {
             print(data, combinationSize);
             return;
         }
