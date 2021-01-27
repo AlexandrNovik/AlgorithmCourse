@@ -9,7 +9,7 @@ public class FibonacciLastLetter extends BaseTask {
 
     @Override
     protected void run() throws IOException {
-        System.out.println(fibonacci(readFile().nextInt()));
+        System.out.println(fibonacci2(readFile().nextInt()));
     }
 
     @Override
@@ -29,5 +29,16 @@ public class FibonacciLastLetter extends BaseTask {
             b = c;
         }
         return c % 10;
+    }
+
+    private static int fibonacci2(final int n) {
+        int a = 0;
+        int b = 1;
+        for (int i = 0; i < n; i++) {
+            int c = (a + b) % 10;
+            a = b;
+            b = c;
+        }
+        return a;
     }
 }

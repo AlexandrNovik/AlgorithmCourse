@@ -20,11 +20,6 @@ public class LCM extends BaseTask {
         System.out.println(findLCM(a, b));
     }
 
-    private static long GCD(long a, long b) {
-        if (b == 0) return a;
-        return GCD(b, a % b);
-    }
-
     private static long GCD_2(long a, long b) {
         long t;
         while (b != 0) {
@@ -36,8 +31,7 @@ public class LCM extends BaseTask {
     }
 
     private static long findLCM(long a, long b) {
-        long lcm = (a * b) / GCD_2(a, b);
-        return lcm;
+        return (a * b) / GCD_2(a, b);
     }
 }
 
