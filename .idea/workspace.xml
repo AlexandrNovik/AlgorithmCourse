@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7931ee72-71be-4d31-a9bd-e91db25b57ac" name="Default" comment="added search wide">
+    <list default="true" id="7931ee72-71be-4d31-a9bd-e91db25b57ac" name="Default" comment="add new tasks">
+      <change afterPath="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/dart/gcd.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/fibonacci/FibonacciLastLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/fibonacci/FibonacciLastLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/fibonacci/FibonacciSimpleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/fibonacci/FibonacciSimpleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/LCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmCourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/Gcd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/kotlin/Gcd.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +36,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>unsorted</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -80,11 +75,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -96,34 +92,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Dart Command Line App.gcd.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseSortTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.tasks.sorts.base.BaseSortTask" />
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.tasks.gcd_lcm.GCD" />
       <module name="AlgorithmCourse" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.main.tasks.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciSimpleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.tasks.fibonacci.FibonacciSimpleNumber" />
-      <module name="AlgorithmCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.tasks.fibonacci.*" />
+          <option name="PATTERN" value="com.main.tasks.gcd_lcm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,25 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.tasks.sorts.Quick" />
-      <module name="AlgorithmCourse" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.tasks.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="gcd.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/dart/gcd.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/dart" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -172,49 +145,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchWideKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="GcdKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.tasks.gcd_lcm.GcdKt" />
       <module name="AlgorithmCourse" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWideKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.tasks.gaphs.SearchWideKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="AlgorithmCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,22 +175,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BaseSortTask" />
-      <item itemvalue="Application.FibonacciSimpleNumber" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Quick" />
       <item itemvalue="Kotlin.SearchWideKt" />
+      <item itemvalue="Application.GCD" />
+      <item itemvalue="Kotlin.GcdKt" />
+      <item itemvalue="Dart Command Line App.gcd.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.gcd.dart" />
+        <item itemvalue="Kotlin.GcdKt" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.SearchWideKt" />
-        <item itemvalue="Application.Quick" />
-        <item itemvalue="Application.FibonacciSimpleNumber" />
-        <item itemvalue="Application.BaseSortTask" />
+        <item itemvalue="Application.GCD" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -291,7 +238,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586895060066</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="improved fib">
+      <created>1611762052374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611762052374</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add new tasks">
+      <created>1649949491828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649949491828</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add kotlin gcd">
+      <created>1649965531741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649965531741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +286,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added sorts" />
@@ -327,25 +294,14 @@
     <MESSAGE value="rework combinations task" />
     <MESSAGE value="added gitignore file" />
     <MESSAGE value="added search wide" />
-    <option name="LAST_COMMIT_MESSAGE" value="added search wide" />
+    <MESSAGE value="improved fib" />
+    <MESSAGE value="add new tasks" />
+    <MESSAGE value="add kotlin gcd" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kotlin gcd" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1388" height="291" key="GridCell.Tab.0.bottom" timestamp="1611762024966">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="291" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611762024966" />
-    <state width="1388" height="291" key="GridCell.Tab.0.center" timestamp="1611762024965">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="291" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611762024965" />
-    <state width="1388" height="291" key="GridCell.Tab.0.left" timestamp="1611762024964">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="291" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611762024964" />
-    <state width="1388" height="291" key="GridCell.Tab.0.right" timestamp="1611762024965">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="291" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611762024965" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
