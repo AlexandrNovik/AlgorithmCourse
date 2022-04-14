@@ -2,7 +2,7 @@ package com.main.tasks.gaphs
 
 import java.util.*
 
-fun main() {
+fun main(args: Array<String>) {
     SearchWide().find()
 }
 
@@ -16,7 +16,7 @@ class SearchWide {
 
     fun find() {
         val deque: Queue<Contact> = LinkedList(graph.contacts)
-        while (deque.count() > 0) {
+        while (deque.isNotEmpty()) {
             val contact = deque.poll()
             if (checked.contains(contact)) continue
             println("Checking: name: ${contact.name}")

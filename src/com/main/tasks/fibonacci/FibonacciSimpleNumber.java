@@ -13,7 +13,7 @@ public class FibonacciSimpleNumber extends BaseTask {
     protected void run() throws IOException {
         Scanner reader = readFile();
         int n = reader.nextInt();
-        System.out.println(fibRecursive(n));
+        System.out.println(fibonacci(n));
     }
 
     @Override
