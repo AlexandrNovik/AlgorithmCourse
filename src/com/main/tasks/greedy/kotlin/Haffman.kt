@@ -9,13 +9,9 @@ fun main() {
         for (letter in input) freqMap[letter] = freqMap[letter]?.let { it + 1 } ?: 1
         with(PriorityQueue(freqMap.map { Node(letter = it.key, freq = it.value) })) {
             while (size > 1) {
-                val left = poll()
-                val right = poll()
-                Node(
-                    left = left.copy(code = 0),
-                    right = right.copy(code = 1),
-                    freq = left.freq + right.freq
-                ).let(::add)
+                val l = poll()
+                val r = poll()
+                Node(left = l.copy(code = 0), right = r.copy(code = 1), freq = l.freq + r.freq).let(::add)
             }
             findCodes(this.poll(), isSingle = freqMap.size > 1)
             val encoded = input.fold("") { c, letter -> c + codes[letter.toString()] }

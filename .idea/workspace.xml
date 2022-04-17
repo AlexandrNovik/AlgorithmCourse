@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7931ee72-71be-4d31-a9bd-e91db25b57ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/HaffmanDecode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Backpack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Backpack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Backpack2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Backpack2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650113401113</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add Haffman">
+      <created>1650212350285</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650212350285</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +339,8 @@
     <MESSAGE value="add paper" />
     <MESSAGE value="add backpack" />
     <MESSAGE value="add Terms" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Terms" />
+    <MESSAGE value="add Haffman" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Haffman" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
