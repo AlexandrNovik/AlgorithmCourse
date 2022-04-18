@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7931ee72-71be-4d31-a9bd-e91db25b57ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/HaffmanDecode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/HaffmanDecode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/HaffmanDecode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <recent name="C:\Users\Alex\IdeaProjects\AlgorithmCourse\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HaffmanKt">
+  <component name="RunManager" selected="Kotlin.HaffmanDecodeKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,15 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HaffmanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.tasks.greedy.kotlin.HaffmanKt" />
+    <configuration name="HaffmanDecodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.tasks.greedy.kotlin.HaffmanDecodeKt" />
       <module name="AlgorithmCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaperKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.tasks.dynamic.PaperKt" />
+    <configuration name="HaffmanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.tasks.greedy.kotlin.HaffmanKt" />
       <module name="AlgorithmCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,18 +177,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.PaperKt" />
       <item itemvalue="Kotlin.CoverLinesWithDotsKt" />
       <item itemvalue="Kotlin.BackpackKt" />
       <item itemvalue="Kotlin.TermsKt" />
       <item itemvalue="Kotlin.HaffmanKt" />
+      <item itemvalue="Kotlin.HaffmanDecodeKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HaffmanDecodeKt" />
         <item itemvalue="Kotlin.HaffmanKt" />
         <item itemvalue="Kotlin.TermsKt" />
         <item itemvalue="Kotlin.CoverLinesWithDotsKt" />
-        <item itemvalue="Kotlin.BackpackKt" />
         <item itemvalue="Kotlin.BackpackKt" />
       </list>
     </recent_temporary>
@@ -297,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650212350285</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="start Haffman decoding">
+      <created>1650213136179</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650213136179</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +346,8 @@
     <MESSAGE value="add backpack" />
     <MESSAGE value="add Terms" />
     <MESSAGE value="add Haffman" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Haffman" />
+    <MESSAGE value="start Haffman decoding" />
+    <option name="LAST_COMMIT_MESSAGE" value="start Haffman decoding" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
