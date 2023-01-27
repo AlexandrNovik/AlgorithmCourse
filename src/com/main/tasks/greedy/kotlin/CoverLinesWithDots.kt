@@ -19,9 +19,9 @@ fun main() {
 
 fun readLines(): MutableList<Line> {
     return mutableListOf<Line>().apply {
-        readLine()?.toInt()?.let {
+        readlnOrNull()?.toInt()?.let {
             repeat(it) {
-                val (a, b) = readLine()!!.split(" ").map { value -> value.toInt() }
+                val (a, b) = readln().split(" ").map { value -> value.toInt() }
                 add(Line(start = a, end = b))
             }
         }

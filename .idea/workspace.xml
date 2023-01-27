@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -21,7 +24,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7931ee72-71be-4d31-a9bd-e91db25b57ac" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/dynamic/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/dynamic/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/dynamic/Paper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/dynamic/Paper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Backpack2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Backpack2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/CoverLinesWithDots.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/CoverLinesWithDots.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Haffman.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/HaffmanDecode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/HaffmanDecode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Terms.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/tasks/greedy/kotlin/Terms.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,15 +88,13 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/dart" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/main/tasks/gcd_lcm/dart" />
@@ -99,7 +106,7 @@
       <recent name="C:\Users\Alex\IdeaProjects\AlgorithmCourse\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HaffmanDecodeKt">
+  <component name="RunManager" selected="Kotlin.PaperKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -115,13 +122,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BackpackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.tasks.greedy.kotlin.BackpackKt" />
-      <module name="AlgorithmCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,6 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaperKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.tasks.dynamic.PaperKt" />
+      <module name="AlgorithmCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TermsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.tasks.greedy.kotlin.TermsKt" />
       <module name="AlgorithmCourse" />
@@ -177,19 +184,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin.PaperKt" />
       <item itemvalue="Kotlin.CoverLinesWithDotsKt" />
-      <item itemvalue="Kotlin.BackpackKt" />
       <item itemvalue="Kotlin.TermsKt" />
       <item itemvalue="Kotlin.HaffmanKt" />
       <item itemvalue="Kotlin.HaffmanDecodeKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PaperKt" />
         <item itemvalue="Kotlin.HaffmanDecodeKt" />
         <item itemvalue="Kotlin.HaffmanKt" />
         <item itemvalue="Kotlin.TermsKt" />
         <item itemvalue="Kotlin.CoverLinesWithDotsKt" />
-        <item itemvalue="Kotlin.BackpackKt" />
       </list>
     </recent_temporary>
   </component>

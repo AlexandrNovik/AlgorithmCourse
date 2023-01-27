@@ -4,7 +4,7 @@ import java.util.*
 
 val codes = mutableMapOf<String, String>()
 fun main() {
-    readLine()?.let { input ->
+    readlnOrNull()?.let { input ->
         val freqMap = mutableMapOf<Char, Int>()
         for (letter in input) freqMap[letter] = freqMap[letter]?.let { it + 1 } ?: 1
         with(PriorityQueue(freqMap.map { Node(letter = it.key, freq = it.value) })) {

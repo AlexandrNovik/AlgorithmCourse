@@ -3,7 +3,7 @@ package com.main.tasks.greedy.kotlin
 data class Item(val cost: Double, val size: Double)
 
 fun main() {
-    val (itemsCount, backpackSize) = readLine()!!.split(" ").map { it.toInt() }
+    val (itemsCount, backpackSize) = readln().split(" ").map { it.toInt() }
     with(readItems(itemsCount)) {
         var backpack = 0.0
         var cost = 0.0

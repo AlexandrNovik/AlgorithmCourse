@@ -52,7 +52,7 @@ public class Combinations extends BaseTask {
     private static void print(int[] data, int combinationSize) {
         for (int j = 0; j < combinationSize; j++)
             System.out.print(data[j] + " ");
-        System.out.println("");
+        System.out.println();
     }
 
     // The main function that prints all combinations of size combinationSize

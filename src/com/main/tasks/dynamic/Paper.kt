@@ -13,5 +13,5 @@ fun main() {
 
 fun findCount(w: Int, h: Int, count: Int): Int {
     if (w == 0 || h == 0) return count
-    return findCount(h, w % h, count + w / h)
+    return findCount(h, h = w % h, count = count + w / h)
 }

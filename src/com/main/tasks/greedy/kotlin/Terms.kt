@@ -7,7 +7,7 @@ import java.util.*
 По данному числу n найдите максимальное число kk, для которого nn можно представить как сумму kk различных натуральных слагаемых. Выведите в первой строке число kk, во второй — kk слагаемых.
 */
 fun main() {
-    val x = readLine()!!.toInt()
+    val x = readln().toInt()
     val numbers = Stack<Int>()
     var currentTerm = 1
     var sum = 0
